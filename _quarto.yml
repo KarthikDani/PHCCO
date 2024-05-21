@@ -9,8 +9,6 @@ book:
     - index.qmd
     - intro.qmd
     - UriAlon1.qmd
-    - summary.qmd
-    - references.qmd
 
 bibliography: references.bib
 
