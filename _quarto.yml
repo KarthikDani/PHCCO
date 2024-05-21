@@ -2,13 +2,13 @@ project:
   type: book
 
 book:
-  title: "phcco"
-  author: "Norah Jones"
+  title: "PHCCO"
+  author: "Karthik"
   date: "5/20/2024"
   chapters:
     - index.qmd
-    - UriAlon1.qmd
     - intro.qmd
+    - UriAlon1.qmd
     - summary.qmd
     - references.qmd
 
