@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>phcco - 2&nbsp; Modeling</title>
+<title>PHCCO - 1&nbsp; Modeling</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
-<link href="./UriAlon1.html" rel="prev">
+<link href="./UriAlon1.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Modeling</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Modeling</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">phcco</a> 
+      <a href="./">PHCCO</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -114,26 +114,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UriAlon1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UriAlon - Intro to SysBio</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Modeling</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Modeling</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+  <a href="./UriAlon1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UriAlon - Intro to SysBio</span></span></a>
   </div>
 </li>
     </ul>
@@ -146,15 +134,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#models-in-systems-biology" id="toc-models-in-systems-biology" class="nav-link active" data-scroll-target="#models-in-systems-biology"><span class="header-section-number">2.1</span> Models in systems biology</a>
+  <li><a href="#models-in-systems-biology" id="toc-models-in-systems-biology" class="nav-link active" data-scroll-target="#models-in-systems-biology"><span class="header-section-number">1.1</span> Models in systems biology</a>
   <ul class="collapse">
-  <li><a href="#modeling-process" id="toc-modeling-process" class="nav-link" data-scroll-target="#modeling-process"><span class="header-section-number">2.1.1</span> Modeling process</a></li>
+  <li><a href="#modeling-process" id="toc-modeling-process" class="nav-link" data-scroll-target="#modeling-process"><span class="header-section-number">1.1.1</span> Modeling process</a></li>
   </ul></li>
-  <li><a href="#model-building" id="toc-model-building" class="nav-link" data-scroll-target="#model-building"><span class="header-section-number">2.2</span> Model building</a>
+  <li><a href="#model-building" id="toc-model-building" class="nav-link" data-scroll-target="#model-building"><span class="header-section-number">1.2</span> Model building</a>
   <ul class="collapse">
-  <li><a href="#design-principles" id="toc-design-principles" class="nav-link" data-scroll-target="#design-principles"><span class="header-section-number">2.2.1</span> Design principles</a></li>
+  <li><a href="#design-principles" id="toc-design-principles" class="nav-link" data-scroll-target="#design-principles"><span class="header-section-number">1.2.1</span> Design principles</a></li>
   </ul></li>
-  <li><a href="#modeling-on-work" id="toc-modeling-on-work" class="nav-link" data-scroll-target="#modeling-on-work"><span class="header-section-number">2.3</span> Modeling on work</a></li>
+  <li><a href="#modeling-on-work" id="toc-modeling-on-work" class="nav-link" data-scroll-target="#modeling-on-work"><span class="header-section-number">1.3</span> Modeling on work</a></li>
   </ul>
 </nav>
     </div>
@@ -163,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Modeling</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Modeling</span></h1>
 </div>
 
 
@@ -180,8 +168,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="models-in-systems-biology" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="models-in-systems-biology"><span class="header-section-number">2.1</span> Models in systems biology</h2>
+<section id="models-in-systems-biology" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="models-in-systems-biology"><span class="header-section-number">1.1</span> Models in systems biology</h2>
 <table class="table">
 <thead>
 <tr class="header">
@@ -229,8 +217,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Maths models are more precise than computational models</li>
 </ul>
-<section id="modeling-process" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="modeling-process"><span class="header-section-number">2.1.1</span> Modeling process</h3>
+<section id="modeling-process" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="modeling-process"><span class="header-section-number">1.1.1</span> Modeling process</h3>
 <ul>
 <li><p>Define goals</p></li>
 <li><p>choose type of model</p></li>
@@ -242,8 +230,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Qualitative data can give insight</p>
 </section>
 </section>
-<section id="model-building" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="model-building"><span class="header-section-number">2.2</span> Model building</h2>
+<section id="model-building" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="model-building"><span class="header-section-number">1.2</span> Model building</h2>
 <ol type="1">
 <li>Details, closed vs open, deterministic vs stochastic, discrete vs continuous</li>
 <li>Dependent &amp; independent variables, parameters, process &amp; interactions, Universal constants, interacting components</li>
@@ -253,15 +241,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Top down</p></li>
 <li><p>Down to up</p></li>
 </ul>
-<section id="design-principles" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="design-principles"><span class="header-section-number">2.2.1</span> Design principles</h3>
+<section id="design-principles" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="design-principles"><span class="header-section-number">1.2.1</span> Design principles</h3>
 <p>laws in biology</p>
 <p>Common patterns in biological systems</p>
 <p>Why biosystems are the way they are?</p>
 </section>
 </section>
-<section id="modeling-on-work" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="modeling-on-work"><span class="header-section-number">2.3</span> Modeling on work</h2>
+<section id="modeling-on-work" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="modeling-on-work"><span class="header-section-number">1.3</span> Modeling on work</h2>
 <ul>
 <li>Easiest way to model a system is to plot.</li>
 </ul>
@@ -681,13 +669,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./UriAlon1.html" class="pagination-link" aria-label="UriAlon - Intro to SysBio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">UriAlon - Intro to SysBio</span></span>
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./UriAlon1.html" class="pagination-link" aria-label="UriAlon - Intro to SysBio">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">UriAlon - Intro to SysBio</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
