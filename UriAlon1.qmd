@@ -70,11 +70,52 @@ Dual transcription factors, can act on a given gene as activators under some con
 
 ### Numbers on the Edges: Input function
 
-**Hill function** describes the real gene input function considering the equilibrium binding of
-the transcription factor to its site on the promoter,
+**Hill function** describes the real gene input function considering the equilibrium binding of the transcription factor to its site on the promoter,
+
+**Hill function for activator:**
 
 $$
 f(X^*) = \frac{\beta X^{*n}}{K^n + X^{*n}}
 $$
 
-K - activation coefficient,
+$K$ - **Activation coefficient** (concentration of active X needed to significantly activate expression) or threshold for activating target gene.
+
+$\beta$ - Maximal Expression level of the promoter
+
+$n$ - Steepness of input function (Hill's coefficient) typically, n = \[1 to 4\]
+
+Promoter activity is plotted as a function of the concentration of X in its active form (X\*)
+
+![](images/clipboard-1861857279.png)
+
+Since the probability that activator bind with promoter cannot exceed 1, Hill's function approach a limiting value at higher levels of $X^*$
+
+**Hill's input function for repressor:** decreasing S shaped curve
+
+$$
+f(X^*) = \frac{\beta}{1 + {(\frac{X^*}{K})}^n}
+$$
+
+![](images/clipboard-2959009077.png)
+
+### Logic Input functions: Simple framework for Network Dynamics
+
+Hill input functions -\> for detailed models
+
+Logic function ( $n \rightarrow \infty$ for Hill's function ) is a very steep curve, a step function.
+
+For activators:
+
+$$
+f(X^*) = \beta  \theta (X^* > K)
+$$
+
+$\theta = 0$ or 1 according to logic statement in the parenthesis above.
+
+For repressors:
+
+$$
+f(X^*) = \beta  \theta (X^* < K)
+$$
+
+### MultiDimensional Input functions Govern genes with Multiple Inputs
